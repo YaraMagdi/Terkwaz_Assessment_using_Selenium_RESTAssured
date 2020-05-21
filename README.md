@@ -1,7 +1,7 @@
 # Terkwaz SDET Assessment Using Selenium and RESTAssured
 **Terkwaz Assessment Using Selenium and RESTAssured** is a assessment project to perform some GUI and API Tests using selenium and RESTAssured, while applying the best practices for Test Automation project design.
 
-** Using Page Object Model design pattern**
+**Using Page Object Model design pattern**
 
 ## These Test Automation Scripts built With : 
 * Java 13
