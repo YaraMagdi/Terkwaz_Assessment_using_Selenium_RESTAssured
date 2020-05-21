@@ -26,7 +26,7 @@ public class BaseTests {
         //setup the chromedriver using WebDriverManager
         WebDriverManager.chromedriver().setup();
 
-        //initializing driver object for Chrome
+        //initializing driver object for Chrome and manage window
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }

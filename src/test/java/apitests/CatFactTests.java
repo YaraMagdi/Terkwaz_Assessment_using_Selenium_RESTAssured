@@ -7,7 +7,11 @@ import static org.hamcrest.Matchers.*;
 
 public class CatFactTests {
 
-    @Test
+    /**
+     * Preform GET action to specified REST request URL
+     * Validate the returned response body form specified URL is not empty
+     */
+    @Test(description = "TC004 - Validate returned response body is not empty")
     public void GetCatFact_checkBodyIsNotEmpty() {
         given().
                 contentType("JSON").
